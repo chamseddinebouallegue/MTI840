@@ -1,0 +1,24 @@
+<h3 align="center">
+  {{title}}
+</h3>
+<div class="table-responsive">
+  <table class="table align-items-center table-flush">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Value</th>
+      
+       
+       
+      </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let val of data ">
+      <td> {{val.createdAt}}</td>
+      <td>{{val.value}}</td>
+      
+     
+    </tr>
+    </tbody>
+   </table>
+   </div>
